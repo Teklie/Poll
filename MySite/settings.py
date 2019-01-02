@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Poll.urls'
+ROOT_URLCONF = 'MySite.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Poll.wsgi.application'
+WSGI_APPLICATION = 'MySite.wsgi.application'
 
 
 # Database
